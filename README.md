@@ -1,4 +1,4 @@
-# Firebase Admin Node.js Session Management Quickstart
+# Student Web project, support us if you can, we are at your service
 
 This sample app demonstrates how to use Firebase `httpOnly` session cookies
 with the Firebase Admin SDK session management API.

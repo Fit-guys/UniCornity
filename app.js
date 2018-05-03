@@ -19,7 +19,7 @@ var https = require('https');
 var app = express();
 var admin = require('firebase-admin');
 var bodyParser = require('body-parser');
-
+var port = process.env.PORT || 8080;
 /**
  * Renders the profile page and serves it in the response.
  * @param {string} endpoint The get profile endpoint.
@@ -225,7 +225,7 @@ app.get('/delete', function (req, res) {
   }
 });
 
-// Start http server and listen to port 3000.
-app.listen(3000, function () {
-  console.log('Sample app listening on port 3000!')
-})
+
+app.listen(port, () => {
+  console.log('Running on port '+port);
+});

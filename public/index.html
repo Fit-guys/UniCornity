@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>КВЕСТ</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+	</head>
+	<script src="js/js.js">
+	</script>
+	<body>
+
+		<div id="background">
+			<div id="dark"></div>
+			<div id="ContactBgcopy"></div>
+			<div id="ContactBgcopy2"></div>
+			<div id="LogoBg"></div>
+			<div id="Left"></div>
+			<div id="LogoBgcopy"></div>
+			<div id="Right"></div>
+			<div id = "Content">
+				<div id="Ceb">
+					<div id="Shape6"><img src="images/unicorn.png"></div>
+					<br>
+					<p class="CommandName">Cyber Unicorns</p>
+					<br>
+					<div id="FITUNIVERSITYTEAM">FIT UNIVERSITY TEAM</div>
+				</div>
+				<div id="menu">
+					<div id="layer_5" class="layer" onclick="registration()"><p>ЗАРЕЄСТРУВАТИСЬ</p></div>
+					<div id="layer_6" class="layer" onclick="login()"><p>УВІЙТИ</p></div>
+					<a href = "rules.html"><div id="layer_7" class="layer"><p>ПРАВИЛА КВЕСТУ</p></div></a>
+				</div>
+			</div>
+			<div id="login-page" onchange="handleChange()" >
+				<div class="form" >
+					<div id="reg"></div>
+					<form id="register-form">
+						<input type="text" placeholder="Ім'я"/>
+						<input type="password" placeholder="Пароль"/>
+						<input type="text" placeholder="Email"/>
+						<a href ="/game.html">Розпочати гру</a>
+					</form>
+					<form id="login-form">
+						<input type="text" placeholder="Email"/>
+						<input type="password" placeholder="Пароль"/>
+						<a href ="/game.html">Продовжити</a>
+					</form>
+					<div id="close" onclick="onClose()"><p>Закрити</p></div>
+				</div>
+			</div>
+		</div>
+
+ </body>
+ </html>

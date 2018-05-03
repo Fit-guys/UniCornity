@@ -1,0 +1,46 @@
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.6.3/firebaseui.css" />
+<script src="bundle.js"></script>
+<script src="buttons.js"></script>
+<body>
+<div id="container">
+
+	<div id="background">
+		<div id="dark"></div>
+		<div id="ContactBgcopy"></div>
+		<div id="ContactBgcopy2"></div>
+		<div id="LogoBg"></div>
+		<div id="Left"></div>
+		<div id="LogoBgcopy"></div>
+		<div id="Right"></div>
+		<div id = "Content">
+			<div id="Ceb">
+				<div id="Shape6"><img src="./images/unicorn.png" alt=""></div>
+				<br>
+				<p class="CommandName">Cyber Unicorns</p>
+				<br>
+				<div id="FITUNIVERSITYTEAM">FIT UNIVERSITY TEAM</div>
+			</div>
+			<div id="menu">
+				<div id="layer_6" class="layer" onclick="login()">Авторизуватися</div>
+				<a href = "rules.html" class="layer"><div id="layer_7" >Правила</div></a>
+			</div>
+		</div>
+		<div id="login-page" onchange="handleChange()" >
+			<div class="form" >
+				<div id="reg"></div>
+
+                <div id="loading" class="hidden"></div>
+                <div id="redirecting" class="hidden">Redirecting...</div>
+                <div id="firebaseui-container" class="login-form" style="height:auto;"></div>
+                <div id="close" onclick="onClose()"><p>Закрити</p></div>
+            </div>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

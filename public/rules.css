@@ -1,0 +1,254 @@
+ body {
+	margin: 0 auto;
+	padding: 0;
+ }
+ @font-face {
+	 font-family: MyriadPro;
+	 src: url(../fonts/8143.ttf);
+ }
+ li{
+     list-style-type: decimal;
+ }
+ ul{
+     padding-left: 5vw;
+ }
+ img{
+     height: 10vw;
+ }
+li{
+	padding-top: 5%;
+}
+a{
+    text-decoration: none;
+}
+#logo img{
+    height: 5vh;
+}
+#logo{
+    font-size: 2vw;
+    margin-bottom: 0;
+    margin-top: 0.5vw;
+    color: white;
+    line-height: 2.6vw;
+    text-align: center;
+    font-family: MyriadPro;
+    animation: rules 1.5s linear 1;
+}
+#logo div{
+    font-size: 3.3vw;
+}
+ #triangleRules {
+     position: absolute;
+     border-top: 50vh solid transparent;
+     border-left: 10.5vw solid #07253a;
+     border-bottom: 50vh solid transparent;
+     margin-left: 50vw;
+     animation: triangleRules 1s linear 1;
+ }
+#rulesBlock
+{
+    animation: rulesBlock 1s linear 1;
+    width: 50vw;
+    position: absolute;
+    height: 100vh;
+    background-color: #07253a;
+}
+ #rules
+ {
+     margin-top: -2vw;
+     animation: rules 1.5s linear 1;
+     height: 80vh;
+     font-size: 1.5vw;
+     z-index: 10;
+     color: white;
+     font-family: MyriadPro;
+     line-height: 5vh;
+     margin-left: -2vw;
+ }
+ .layer {
+     margin-top: 0.3vh;
+     font-size: 1.7vw;
+     color: #fff;
+     padding-right: 2%;
+     padding-left: 2%;
+     z-index: 5;
+     position: absolute;
+     font-family: MyriadPro;
+     cursor: pointer;
+     float: left;
+     margin-left: 17vw;
+     transition: all 0.3s ease;
+ }
+ #background0
+{
+     animation: back 1s linear 1;
+	 left: 0px; 
+	 top: 0px;
+     background-color: #5c8ecc;
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 100vw;
+	 height: 100vh;
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 100vw;
+	 height: 100vh;
+	 z-index:1;
+} 
+
+ #ContactBg 
+{ 
+	 left: -1px; 
+	 top: -1px; 
+	 position: absolute; 
+	 width: 100vw;
+	 height: 100vh;
+	 z-index:2;
+} 
+
+ #LogoBg 
+{
+     animation: startLogo 1s linear 1;
+     left: 60vw;
+     background-color: white;
+     position: absolute;
+     width: 40vw;
+     height: 100vh;
+     z-index: 5;
+}
+ #TriangleLogo
+ {
+     border-top: 50vh solid transparent;
+     border-right: 10.5vw solid #ffffff;
+     border-bottom: 50vh solid transparent;
+     position: inherit;
+     margin-left: -10.5vw;
+     z-index: 15;
+ }
+
+ #Forma1 
+{ 
+	 left: 84px; 
+	 top: 36px; 
+	 position: absolute; 
+	 width: 30px;
+	 height: 35px;
+	 z-index:22;
+}
+
+ #FITUNIVERSITYTEAM
+ {
+     /*left: 43vw;
+     top: 56vh;
+     position: absolute;*/
+     font-family: MyriadPro;
+     font-size: 1.4vw;
+     word-spacing: 3px;
+     color: #000;
+     z-index:11;
+ }
+ #Ceb
+ {
+     animation: cyb 1.5s linear 1;
+     text-align: center;
+     margin-left: 13vw;
+     margin-top: 40vh;
+     line-height: 5%;
+     font-family: MyriadPro;
+     position: absolute;
+     font-size: 1.3em;
+     color: #000;
+     z-index: 12;
+ }
+ .CommandName
+ {
+     font-size: 2.3vw;
+ }
+
+ #Shape6 
+{
+	 z-index:25;
+}
+ .layer:hover {
+	 box-shadow: inset 0 0 0 2px #ffffff;
+ }
+ @keyframes startLogo{
+     0% {
+         left: 100vw;
+     }
+     50%{
+         left: 80vw;
+     }
+     100% {
+         left: 60vw;
+     }
+ }
+ @keyframes back{
+     0% {
+         opacity: 0;
+     }
+     50%{
+         opacity: 0.5;
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+ @keyframes rulesBlock{
+     0% {
+         width: 0;
+     }
+     50%{
+         width: 25vw
+     }
+     100% {
+         width: 50vw;
+     }
+ }
+ @keyframes rules{
+     0% {
+         opacity: 0;
+     }
+     66%{
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+ @keyframes triangleRules{
+     0% {
+         margin-left:0;
+     }
+     50%{
+         margin-left: 25vw;
+     }
+     100% {
+         margin-left: 50vw;
+     }
+ }
+ @keyframes cyb{
+     0% {
+         opacity: 0;
+     }
+     66%{
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+
+ @media screen and (max-width: 600px){
+     /*#rules{
+         line-height: 4.5vw;
+     }*/
+ }

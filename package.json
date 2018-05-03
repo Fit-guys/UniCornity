@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "demo": "./node_modules/.bin/webpack --config webpack.config.js && node app.js"
+    "demo": "./node_modules/.bin/webpack --config webpack.config.js && node app.js",
+    "start": "node app.js"
   },
   "author": "bojeil-google",
   "license": "Apache License Version 2.0",
